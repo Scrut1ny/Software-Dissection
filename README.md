@@ -1,10 +1,8 @@
 <div align="center">
 
-🕵️ Software Analysis 🕵️
+# 🕵️ Software Analysis 🕵️
 
 </div>
-
----
 
 #### Recommended Software
 - Websites
