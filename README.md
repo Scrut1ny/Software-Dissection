@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕵️ Software Analysis 🕵️
+🕵️ Software Analysis 🕵️
 
 </div>
 
