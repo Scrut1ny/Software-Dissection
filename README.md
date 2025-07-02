@@ -4,7 +4,6 @@
 
 </div>
 
-#### Recommended Software
 - Websites
     - [Decompiler Explorer](https://dogbolt.org/)
     - [SQLite Viewer Web App](https://sqliteviewer.app/)
