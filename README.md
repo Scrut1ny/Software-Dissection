@@ -4,8 +4,6 @@
 
 </div>
 
-# 🔍 Reverse Engineering Toolkit
-
 A categorized collection of tools, websites, and resources for reverse engineering software, binaries, and systems — including static analysis, dynamic analysis, decompilation, sandboxing, and more.
 
 ---
