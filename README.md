@@ -4,15 +4,104 @@
 
 </div>
 
-- Websites
-    - [Decompiler Explorer](https://dogbolt.org/)
-    - [SQLite Viewer Web App](https://sqliteviewer.app/)
-- Software
-    - [Process Informer](https://github.com/winsiderss/systeminformer)
-    - [PE-Bear (Lightweight PE Analyzer)](https://github.com/hasherezade/pe-bear)
-    - [Detect It Easy (DIE)](https://github.com/horsicq/DIE-engine)
-    - [Ghidra (Advanced Reverse Engineering)](https://github.com/NationalSecurityAgency/ghidra)
-    - [x64dbg (Dynamic Debugging)](https://github.com/x64dbg/x64dbg)
+# 🔍 Reverse Engineering Toolkit
+
+A categorized collection of tools, websites, and resources for reverse engineering software, binaries, and systems — including static analysis, dynamic analysis, decompilation, sandboxing, and more.
+
+---
+
+## 🕸️ Web-Based Tools
+
+### 🧠 Analysis / Decompilation
+- [Decompiler Explorer](https://dogbolt.org/) – Compare how different compilers decompile code.
+- [Godbolt Compiler Explorer](https://godbolt.org/) – View assembly output from C/C++ code.
+- [HexEd.it](https://hexed.it/) – Online hex editor for binary inspection.
+
+### 📂 File / Data Inspection
+- [SQLite Viewer Web App](https://sqliteviewer.app/) – View and explore `.sqlite` databases.
+- [JS Beautifier](https://beautifier.io/) – Deobfuscate and format JavaScript.
+
+---
+
+## 🧰 Static Analysis Tools
+
+### 🧠 Decompilers & Disassemblers
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) – Advanced reverse engineering suite.
+- [IDA Free / IDA Pro](https://hex-rays.com/ida-free/) – Industry-standard disassembler.
+- [Cutter](https://github.com/rizinorg/cutter) – GUI frontend for Rizin (Radare2 fork).
+- [dnSpy](https://github.com/dnSpyEx/dnSpy) – Decompiler/debugger for .NET executables.
+- [JD-GUI](http://java-decompiler.github.io/) – Java `.jar` decompiler.
+- [CFR](https://github.com/leibnitz27/cfr) – Another powerful Java decompiler.
+
+### 📦 PE & Binary Inspection
+- [PE-Bear](https://github.com/hasherezade/pe-bear) – Lightweight PE file analyzer.
+- [Detect It Easy (DIE)](https://github.com/horsicq/DIE-engine) – Detect packers, compilers, and obfuscators.
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) – Analyze and extract binary firmware images.
+- [Resource Hacker](http://www.angusj.com/resourcehacker/) – Inspect/modify EXE/DLL resource files.
+- `strings` – Extract readable text from binaries (GNU or Sysinternals version).
+
+---
+
+## 🧪 Dynamic Analysis Tools
+
+### 🐞 Debuggers
+- [x64dbg](https://github.com/x64dbg/x64dbg) – Debugger for 64-bit and 32-bit Windows executables.
+- [OllyDbg](http://www.ollydbg.de/) – 32-bit debugger, classic reverse engineering tool.
+- [Immunity Debugger](https://debugger.immunityinc.com/) – Debugger with Python scripting.
+
+### 📡 System Monitoring
+- [System Informer (formerly Process Hacker)](https://github.com/winsiderss/systeminformer) – Process viewer and system monitor.
+- [Process Monitor (ProcMon)](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) – Monitors file, registry, and process activity.
+- [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) – Advanced task manager from Sysinternals.
+- [API Monitor](http://www.rohitab.com/apimonitor) – View real-time API calls.
+- [Sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) – System activity logging for security analysis.
+
+---
+
+## 🌐 Network Monitoring Tools
+
+- [Wireshark](https://www.wireshark.org/) – Network packet analyzer.
+- [Fiddler Classic](https://www.telerik.com/fiddler/fiddler-classic) – HTTP/HTTPS debugging proxy.
+- [mitmproxy](https://mitmproxy.org/) – Intercept, modify, and replay HTTP(S) traffic.
+- [TCPView](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview) – Monitor open TCP/UDP connections.
+
+---
+
+## 💻 Virtualization & Sandboxing
+
+- [VMware Workstation Player](https://www.vmware.com/products/workstation-player.html) – Free VM for Windows/Linux.
+- [VirtualBox](https://www.virtualbox.org/) – Open-source virtualization software.
+- [Sandboxie Plus](https://github.com/sandboxie-plus/Sandboxie) – Run applications in isolated sandbox.
+
+---
+
+## 🧬 Instrumentation & Hooking
+
+- [Frida](https://frida.re/) – Dynamic instrumentation toolkit for runtime hooking.
+- [Cheat Engine](https://www.cheatengine.org/) – Memory scanner and debugger.
+- [ScyllaHide](https://github.com/x64dbg/ScyllaHide) – Anti-anti-debug plugin for x64dbg.
+- [Syscall Monitor](https://github.com/SamuelTulach/syscall-monitor) – Monitor and log Windows system calls.
+
+---
+
+## 📋 Automation & Scripting
+
+- [Python + Capstone](http://www.capstone-engine.org/) – Disassembly engine with Python bindings.
+- [uncompyle6](https://github.com/rocky/python-uncompyle6) – Decompile `.pyc` Python bytecode.
+- [Volatility](https://www.volatilityfoundation.org/) – Memory forensics and RAM dump analysis.
+
+---
+
+## 📚 Learning Resources
+
+- [Malware Unicorn’s RE 101 Workshop](https://malwareunicorn.org/workshops/re101.html) – Beginner reverse engineering course.
+- [Practical Malware Analysis](https://nostarch.com/malware) – Classic textbook on malware reverse engineering.
+- [OpenSecurityTraining.info](https://opensecuritytraining.info/) – Free courses on RE, exploitation, and more.
+- [RE for Beginners](https://beginners.re/) – Open-source reverse engineering book.
+
+---
+
+**Disclaimer**: Use responsibly. Some of these tools may be used for malicious purposes — always ensure you're working within legal and ethical boundaries.
 
 ---
 
